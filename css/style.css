@@ -56,6 +56,17 @@ nav{
     margin-top: -120px;
 }
 
+.eslogan{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.allprod{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
 .wp-right p:nth-child(1){
     margin-top: 20px;
     font-size: 18px;
@@ -66,11 +77,42 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-    margin-top: -10px;
+    margin-top: -15px;
     margin-right: 10px;
     gap: 40px;
 }
 
+.create{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
+
+}
+.login{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
+}
+
+.create:hover{
+    background-color: rgba(128, 128, 128, 0.308);
+    border:1px solid #ffdd75;
+    color: white;
+}
+
+.login:hover{
+    background-color: rgba(128, 128, 128, 0.308);
+    border:1px solid #ffdd75;
+    color: white;
+}
 .cuentas:nth-child(2){
     font-size: 18px;
 }
@@ -98,7 +140,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: -30px;
 }
 
 .ofertasWrapper{
@@ -232,6 +274,8 @@ nav{
     margin: 10px;
 }
 
+
+
 /*Modal style*/
 body{
     margin: 0;
@@ -307,8 +351,6 @@ body{
     margin-right: 5px;
     cursor: pointer;
 }
-
-
 .formright{
     display: flex;
     flex-direction: column;
@@ -326,8 +368,6 @@ body{
     border: 1px solid rgba(128, 128, 128, 0.637);
 }
 
-
 .modal-body{
     background-color: #fbbc02;
-    }
-
+}
